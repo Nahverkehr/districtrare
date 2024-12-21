@@ -25,3 +25,6 @@ nav a {
 nav a:hover {
     color: #646464;
 }
+div unavtext {
+    align-items: center;
+}
