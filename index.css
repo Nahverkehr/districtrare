@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    max-height: 50px;
+}
+nav {
+    margin-left: auto;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-size: 16px;
+}
+nav a:hover {
+    color: #007bff;
+}
