@@ -16,6 +16,9 @@ header {
 .logo {
     max-height: 10vh;
     max-width: 10vh;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
 }
 nav {
     margin-left: auto;
