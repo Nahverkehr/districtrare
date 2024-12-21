@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Oswlad);
+    src: url(Fonts/Oswald-VariableFont_wght.ttf);
 }
 
 body {
@@ -32,7 +32,7 @@ nav a:hover {
     color: #646464;
 }
 .unavtext {
-    font-family: Oswald, sans-serif;
+    font-family: MainFont, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
