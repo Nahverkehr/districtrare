@@ -27,6 +27,5 @@ nav a:hover {
     color: #646464;
 }
 .unavtext {
-    display: flexbox;
-    align-items: center;
+    text-align: center;
 }
