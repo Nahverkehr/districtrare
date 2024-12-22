@@ -82,6 +82,12 @@ footer {
     bottom: 0;
 }
 
+.emailcontactfooter {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    
+}
+
 .emailcontactfooter p{
     margin: 0;
     display: flex;
