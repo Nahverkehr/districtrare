@@ -119,3 +119,8 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+.copy-text:hover {
+    cursor: pointer;
+    color: rgb(196, 196, 196);
+}
