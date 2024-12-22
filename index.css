@@ -49,16 +49,22 @@ section {
 }
 
 .one {
+    padding: 0.1vh;
     background-color: #000000;
 }
 
 .unavtext {
     margin-top: 10vh;
-    font-family: MainFont, sans-serif;
+    font-family: MainFont;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
+}
+
+.unavtext h1 {
+    font-size: 5vh;
+    margin-bottom: 10vh;
 }
 
 .unavsocials {
