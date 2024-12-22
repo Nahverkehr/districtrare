@@ -3,6 +3,11 @@
     src: url(Fonts/horizon.otf);
 }
 
+@font-face {
+    font-family: BusinessFont;
+    src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -79,6 +84,7 @@ section {
 }
 
 footer {
+    font-family: BusinessFont;
     border-top: 2px solid #ffffff;
     background-color: #000000;
     display: flex;
