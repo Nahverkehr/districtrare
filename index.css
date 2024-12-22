@@ -1,3 +1,8 @@
+@font-face {
+    font-family: MainFont;
+    src: url(Fonts/horizon.otf);
+}
+
 body {
     background-color: #000000;
     padding: 0;
@@ -38,4 +43,26 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     color: #ffffff;
+}
+
+.unavsocials {
+    font-family: MainFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 5vh;
+}
+
+.unavlogos {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unavlogos img {
+    max-height: 5vh;
+    max-width: 5vh;
+    margin: 0 10px;
 }
