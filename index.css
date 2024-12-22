@@ -76,8 +76,15 @@ footer {
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    margin-top: 45vh;
     padding: 5vh;
     position: relative;
     bottom: 0;
 }
 
+.emailcontactfooter p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
