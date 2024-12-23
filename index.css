@@ -91,7 +91,7 @@ section {
 
 footer {
     font-family: BusinessFont;
-    border-top: 2px solid #ffffff;
+    border-top: 0.2vh solid #ffffff;
     background-color: #000000;
     display: flex;
     text-align: center;
@@ -108,7 +108,7 @@ footer p {
 }
 
 .emailcontactfooter {
-    border: 2px solid #ffffff;
+    border: 0.2vh solid #ffffff;
     padding: 2vh;
     
 }
