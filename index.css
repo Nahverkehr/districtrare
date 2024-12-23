@@ -125,7 +125,8 @@ footer p {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;    /* Still has to be made responsive */
+    align-items: center;
+    font-size: clamp(0.8rem, 1.3vw, 1.1rem);
 }
 
 .copy-text:hover {
