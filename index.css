@@ -28,7 +28,7 @@ h1 {
 
 header {
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,8 +37,8 @@ header {
     ;
 }
 .logo {
-    max-height: 10vh;
-    max-width: 10vh;
+    max-height: 8vh;
+    max-width: auto;
     user-select: none;
     pointer-events: none;
     -webkit-user-drag: none;
@@ -54,6 +54,7 @@ section {
 }
 
 .unavtext {
+
     margin-top: 10vh;
     font-family: MainFont;
     display: flex;
@@ -63,8 +64,9 @@ section {
 }
 
 .unavtext h1 {
-    font-size: 5vh;
-    margin-bottom: 10vh;
+  text-align: center;
+  padding: 20px;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .unavsocials {
@@ -73,7 +75,12 @@ section {
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    padding: 5vh;
+}
+
+.unavsocials h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 .unavlogos {
@@ -84,7 +91,7 @@ section {
 }
 
 .unavlogos img {
-    max-height: 5vh;
+    max-height: auto;
     max-width: 5vh;
     margin: 0 1vh;
 }
