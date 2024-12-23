@@ -84,7 +84,6 @@ section {
 }
 
 .unavlogos {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +92,7 @@ section {
 .unavlogos img {
     max-height: auto;
     max-width: 5vh;
-    margin: 0 1vh;
+    margin: 2vh 1vh;
 }
 
 footer {
@@ -121,7 +120,7 @@ footer p {
     
 }
 
-.emailcontactfooter p{
+.emailcontactfooter p {
     margin: 0;
     display: flex;
     justify-content: center;
