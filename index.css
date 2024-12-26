@@ -95,6 +95,32 @@ section {
     margin: 2vh 1vh;
 }
 
+.unavparagraph p {
+    text-align: center;
+    padding: 20px;
+    font-family: BusinessFont;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+.unavparagraph {
+    margin: 10vw 10vh;
+    border: #ffffff 0.1vh solid;
+    border-radius: 5vw;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .unavparagraph h3 {
+    font-family: MainFont;
+    text-align: center;
+    padding: 1vh;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+
 footer {
     font-family: BusinessFont;
     border-top: 0.2vh solid #ffffff;
