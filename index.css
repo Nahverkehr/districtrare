@@ -159,20 +159,26 @@ footer p {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 5vw;
+  gap: clamp(4rem, 2vw, 2rem); /* spacing between buttons */
 }
 
 .glass-btn {
-  width: 5vw;
-  height: 5vw;
+  width: clamp(3rem, 5vw, 6rem);
+  height: clamp(3rem, 5vw, 6rem);
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1vw;
-  margin: 0 1vw;
+  border-radius: clamp(0.5rem, 1vw, 1rem);
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* baseline */
+}
+
+.glass-btn:hover {
+  background-color: #111;
+  transform: translateY(-5px);
+  box-shadow: 0 0 clamp(1rem, 2vw, 3rem) rgba(255, 255, 255, 0.5);
 }
 
 .glass-btn.blue-btn {
