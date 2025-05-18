@@ -159,10 +159,11 @@ footer p {
   align-items: center;
   justify-content: center;
   height: 100%;
-  gap: clamp(4rem, 2vw, 2rem); /* spacing between buttons */
+  gap: clamp(4rem, 2vw, 8rem); /* spacing between buttons */
 }
 
 .glass-btn {
+  margin-top: 2vh;
   width: clamp(3rem, 5vw, 6rem);
   height: clamp(3rem, 5vw, 6rem);
   background-color: #000;
